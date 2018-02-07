@@ -19,18 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         Parse.initialize(with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) in
-            configuration.applicationId = "CodePath-Parse"
-            configuration.server = "http://45.79.67.127:1337/parse"
+            configuration.applicationId = "shaurya-parsechat"
+            //configuration.clientKey = "salkfjdslkgje"
+            configuration.server = "http://parsechat-cs49000.herokuapp.com/parse"
         }))
         
-        if let currentUser = PFUser.current() {
+       /* if let currentUser = PFUser.current() {
             print("Welcome back \(currentUser.username!) 😀")
                 
                 // TODO: Load Chat view controller and set as root view
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let chatViewController = storyboard.instantiateViewController(withIdentifier: "ChatViewController")
-            window?.rootViewController = chatViewController
-        }
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let chatViewController = storyboard.instantiateViewController(withIdentifier: "ChatViewController")
+                self.window?.rootViewController = chatViewController
+            
+            
+        }else{
+            print("User logged out")
+        }*/
         
         
         return true
