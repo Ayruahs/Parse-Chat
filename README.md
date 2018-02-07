@@ -1,43 +1,32 @@
-# Project 4 - *Name of App Here*
+# Lab 4 - *Parse Chat*
 
-**Name of your app** is a photo sharing app using Parse as its backend.
+**Parse Chat** is a Chat app using an [open source Parse](http://parseplatform.org/) backend.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
+The following **required** user stories are complete:
 
-- [ ] User can sign up to create a new account using Parse authentication (+1pt)
-- [ ] User can log in and log out of his or her account (+1pt)
-- [ ] The current signed in user is persisted across app restarts (+1pt)
-- [ ] User can take a photo, add a caption, and post it to "Instagram" (+2pt)
-- [ ] User can view the last 20 posts submitted to "Instagram" (+2pt)
-- [ ] User can pull to refresh the last 20 posts submitted to "Instagram" (+1pt)
-- [ ] User can tap a post to view post details, including timestamp and caption (+2pt)
+- [X] User can sign up and sign in to the login screen (+1pt)
+- [X] User sees alerts for login exceptions, i.e. "account already exists", "wrong credentials", etc. (+1pt)
+- [X] User can compose and send chat messages (+2pt)
+- [X] User can view a list of chat messages in chronological order (+2pt)
+- [X] Automatically Adjust Cell Size to Fit Text (+1pt)
+- [X] Username of chat author is displayed in each chat message (+2pt)
+- [X] Persist Logged in User (+1pt)
 
-The following **stretch** features are implemented:
+The following **stretch** user stories are implemented:
 
-- [ ] Style the login page to look like the real Instagram login page (+1pt)
-- [ ] Style the feed to look like the real Instagram feed (+1pt)
-- [ ] User can use a tab bar to switch between all "Instagram" posts and posts published only by the user. AKA, tabs for Home Feed and Profile (+2pt)
-- [ ] Add a custom camera using the CameraManager library (+1pt)
-- [ ] User can load more posts once he or she reaches the bottom of the feed using infinite scrolling (+2pt)
-- [ ] Show the username and creation time for each post using section headers (+1pt)
-   - If you use TableView Section Headers to display the the username and creation time, you'll get "sticky headers" similar to the actual Instagram app.
-- [ ] After the user submits a new post, show a progress HUD while the post is being uploaded to Parse (+1pt)
-- User Profiles:
-   - [ ] Allow the logged in user to add a profile photo (+2pt)
-   - [ ] Display the profile photo with each post (+1pt)
-   - [ ] Tapping on a post's username or profile photo goes to that user's profile page (+2pt)
-- [ ] User can comment on a post and see all comments for each post in the post details screen (+3pt)
-- [ ] User can like a post and see number of likes for each post in the post details screen (+1pt)
-- [ ] Run your app on your phone and use the camera to take the photo (+1pt)
+- [ ] User sees an activity indicator while waiting for authentication (+1pt)
+- [ ] User can pull to refresh Chat feed (+1pt)
+- [ ] Add an "Adorable Avatar" for each user by requesting an avatar from the [Adorable Avatars API](https://github.com/adorableio/avatars-api) (+2pt)
+- [ ] Chat Bubble Style Design (+3pt)
+- [ ] Expand or contract the cell layout as needed to show the chat message author (user) if it exists (+2pt)
 
+The following **additional** user stories are implemented:
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -51,13 +40,6 @@ Here's a walkthrough of implemented user stories:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Credits
-
-List an 3rd party libraries, icons, graphics, or other assets you used in your app.
-
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
-
 
 ## Notes
 
